@@ -53,8 +53,6 @@ class Model():
 			self.last_spawn_time = current_time
 		for sprite in self.sprites:
 			if sprite.is_pacman():
-				print(f"Ghosts: {self.ghosts}")
-				print(f"Pac next:  {sprite.next_node}")
 				for ghost in self.ghosts:
 					ghost.pacman_next_node = sprite.next_node
 				collided_with_node = False
@@ -399,7 +397,6 @@ class Controller():
 						wall_start = (pygame.mouse.get_pos()[0]+wallWidth,pygame.mouse.get_pos()[1]+wallHeight)
 					elif direction == "ld":
 						wall_start = (pygame.mouse.get_pos()[0]+wallWidth,pygame.mouse.get_pos()[1])
-					print(f"Width = {wallWidth}   Height =  {wallHeight}")
 
 					self.model.add(self.add, wall_start, self.view.scroll_pos, (wallWidth, wallHeight))
 				else:
