@@ -1,2 +1,2 @@
 # Pacman-Game
-A class project that I decided to make my own by adding game like functionality, movement restrictions, ghost ai that chases Pacman around the screen and runs when Pacman eats a pellet. Spawns a ghost and a pellet every 5 seconds, survive as long as you can!
+Demonstartes proficiency in object oriented programming, inheritance, model-view-controller program architecture, and an ai coded ghost. This started as a class project but I decided to make my own by adding game like functionality, movement restrictions, ghost ai that chases Pacman around the screen and runs when Pacman eats a pellet. Spawns a ghost and a pellet every 5 seconds, survive as long as you can!
