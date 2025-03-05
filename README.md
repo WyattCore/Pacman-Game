@@ -3,6 +3,6 @@ Demonstrates proficiency in object oriented programming, inheritance, model-view
 
 HOW TO RUN
 
-Just download the zip file for all of the code and extract it to a separate file. Start up the terminal from the extracted folder and run "python3 game.py"
+Just download the zip file for all of the code and extract it to a separate file. Start up the terminal at the src file from the extracted folder and run "python3 game.py"
 The controls are simple: 
  Use the arrows to move pacman around the screen to collect pellets and eat ghosts!!
